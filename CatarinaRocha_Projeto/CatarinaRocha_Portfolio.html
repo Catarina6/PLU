@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CATARINA ROCHA</title>
+    <script src="CatarinaRocha_Portfolio.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        type="text/css">
+    <link rel="stylesheet" href="theme.css" type="text/css">
+
+    <style>
+        img:hover {
+              opacity: 0.9;
+              filter: alpha(opacity=50); /* For IE8 and earlier */
+            }
+            </style>
+</head>
+
+<body class="bg-light" onload="formatDialog()" onresize="formatDialog()">
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6 col-md-3 p-0 ">
+                <img class="img-fluid d-block" src="images/1.1.JPG" onclick="showVideo(1)">
+                <div class="bottom-left"><strong>terror empire - times of war</strong></p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 p-0 ">
+                <img class="img-fluid d-block" src="images/2.jpg" onclick="showVideo(2)"></a>
+                <div class="bottom-left"><strong>varsovie - killing anna</strong></p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 p-0 ">
+                <img class="img-fluid d-block" src="images/3.jpg" onclick="showVideo(3)"></a>
+                <div class="bottom-left"><strong>aeon sable - follow the light</strong></p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 p-0 ">
+                <img class="img-fluid d-block" src="images/4.jpg" onclick="showVideo(4)"></a>
+                <div class="bottom-left"><strong>the godiva - empty coil</strong></p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 p-0 ">
+                <img class="img-fluid d-block" src="images/5.jpg" onclick="showVideo(5)"></a>
+                <div class="bottom-left"><strong>manes - Endetidstegn</strong></p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 p-0 ">
+                <img class="img-fluid d-block" src="images/6.jpg" onclick="showVideo(6)"></a>
+                <div class="bottom-left"><strong>enblood - cast to exile </strong></p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 p-0 ">
+                <img class="img-fluid d-block" src="images/7.jpg" onclick="showVideo(7)"></a>
+                <div class="bottom-left"><strong>varsovie - le lac </strong></p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 p-0 ">
+                <img class="img-fluid d-block" src="images/8.jpg" onclick="showVideo(8)"></a>
+                <div class="bottom-left"><strong>gaerea - catharsis </strong></p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 p-0 ">
+                <img class="img-fluid d-block" src="images/9.jpg" onclick="showVideo(9)"></a>
+                <div class="bottom-left"><strong>Azziard - L'Anachorete, Dies </strong></p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 p-0 ">
+                <img class="img-fluid d-block" src="images/10.png" onclick="showVideo(10)"></a>
+                <div class="bottom-left"><strong>*Menção Honrosa* Tempo </strong></p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 p-0 ">
+                <img class="img-fluid d-block" src="images/11.jpg" onclick="showVideo(11)"></a>
+                <div class="bottom-left"><strong>OAK - In "Castelo de Santiago da Barra" </strong></p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 p-0 ">
+                <img class="img-fluid d-block" src="images/12.jpg" onclick="showVideo(12)"></a>
+                <div class="bottom-left"><strong>The Ominous Circle - As The Worm Descends </strong></p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 p-0 ">
+                <img class="img-fluid d-block" src="images/13.jpg" onclick="showVideo(13)"></a>
+                <div class="bottom-left"><strong>Grupo de Fado Amanhecer - Balada a Coimbra </strong></p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 p-0 ">
+                <img class="img-fluid d-block" src="images/14.jpg" onclick="showVideo(14)"></a>
+                <div class="bottom-left"><strong>Demonic Resurrection - Narasimha - The Man-Lion </strong></p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 p-0 ">
+                <img class="img-fluid d-block" src="images/15.jpg" onclick="showVideo(15)"></a>
+                <div class="bottom-left"><strong>Unfathomable Ruination - Pestilential Affinity </strong></p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 p-0 ">
+                <img class="img-fluid d-block" src="images/16.jpg" onclick="showVideo(16)"></a>
+                <div class="bottom-left"><strong>BELPHEGOR - Black Winged Torment </strong></p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <dialog id="terror empire">
+            <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8TvSTFbNmZU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </p>
+            <div class="text-center"> <button class="btn btn-light" onclick="document.getElementById('terror empire').close()">CLOSE</button></div>
+        </dialog>
+
+        <dialog id="varsovie">
+            <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1_5u1v7zBG4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </p>
+            <div class="text-center"> <button class="btn btn-light" onclick="document.getElementById('varsovie').close()">CLOSE</button></div>
+        </dialog>
+
+        <dialog id="aeon sable">
+            <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/cTu-nkwPgXc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </p>
+            <div class="text-center"> <button class="btn btn-light" onclick="document.getElementById('aeon sable').close()">CLOSE</button></div>
+        </dialog>
+
+        <dialog id="the godiva">
+            <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/lNYjj8T4V9A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </p>
+            <div class="text-center"> <button class="btn btn-light" onclick="document.getElementById('the godiva').close()">CLOSE</button></div>
+        </dialog>
+
+        <dialog id="manes">
+            <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/q3gAhs3DQog" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </p>
+            <div class="text-center"> <button class="btn btn-light" onclick="document.getElementById('manes').close()">CLOSE</button></div>
+        </dialog>
+
+        <dialog id="enblood">
+            <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/WPliiGZZNGg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </p>
+            <div class="text-center"> <button class="btn btn-light" onclick="document.getElementById('enblood').close()">CLOSE</button></div>
+        </dialog>
+
+        <dialog id="varsovie1">
+            <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/XXh-TC81slw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </p>
+            <div class="text-center"> <button class="btn btn-light" onclick="document.getElementById('varsovie1').close()">CLOSE</button></div>
+        </dialog>
+        <dialog id="gaerea">
+            <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/JkObUc-HSRE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </p>
+            <div class="text-center"> <button class="btn btn-light" onclick="document.getElementById('gaerea').close()">CLOSE</button></div>
+        </dialog>
+        <dialog id="azziard">
+            <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0WLaqsE15LU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </p>
+            <div class="text-center"> <button class="btn btn-light" onclick="document.getElementById('azziard').close()">CLOSE</button></div>
+        </dialog>
+        <dialog id="tempo">
+            <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/fxqWVxdJPVQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </p>
+            <div class="text-center"> <button class="btn btn-light" onclick="document.getElementById('tempo').close()">CLOSE</button></div>
+        </dialog>
+        <dialog id="oak">
+            <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/bLiDqsIYRLs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </p>
+            <div class="text-center"> <button class="btn btn-light" onclick="document.getElementById('oak').close()">CLOSE</button></div>
+        </dialog>
+        <dialog id="ominous">
+            <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2JrA4666PKw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </p>
+            <div class="text-center"> <button class="btn btn-light" onclick="document.getElementById('ominous').close()">CLOSE</button></div>
+        </dialog>
+        <dialog id="fado">
+            <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/s5j9Ztn_oeE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </p>
+            <div class="text-center"> <button class="btn btn-light" onclick="document.getElementById('fado').close()">CLOSE</button></div>
+        </dialog>
+        <dialog id="demonic">
+            <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/DVQkEAdVwUU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </p>
+            <div class="text-center"> <button class="btn btn-light" onclick="document.getElementById('demonic').close()">CLOSE</button></div>
+        </dialog>
+        <dialog id="unfathomable">
+            <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/SyJgCevYX-U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </p>
+            <div class="text-center"> <button class="btn btn-light" onclick="document.getElementById('unfathomable').close()">CLOSE</button></div>
+        </dialog>
+        <dialog id="belphegor">
+            <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/sKlO6xX_Ypw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </p>
+            <div class="text-center"> <button class="btn btn-light" onclick="document.getElementById('belphegor').close()">CLOSE</button></div>
+        </dialog>
+    </div>
+    </dialog>
+
+
+    <nav id="myNavbar" class="navbar navbar-light bg-dark">
+        <div class="container-fluid"> <a class="navbar-brand text-body" href="#">
+                <b class="text-white">CATARINA ROCHA</b>
+            </a>
+            <button onClick="openDialog()" class="btn-dark text-white"> INFO <i class="fa fa-info-circle text-muted"></i></button>
+    </nav>
+    <dialog id="myDialog" position="relative" class="myDialog">
+        <div class="row">
+            <div class="col-md-12">
+                <button class="btn btn-light" onclick="document.getElementById('myDialog').close()">X</button></div>
+            <div class="col-md-7">
+                <br>
+                <b class="text-white">
+                    <h5>WHO AM I</h5>
+                </b>
+
+                <p>I’m Catarina Rocha (24) and I work as an art Director, Assistant and Filmmaker on a variety of
+                    music
+                    videos for
+                    Rock/Heavy Metal bands around the world.<br> I invite you to take a quick look at some of the
+                    videos
+                    you can find on the home page and if you're interested in my work, feel free to hit me via
+                    email!</p>
+                <br>
+                <b class="text-white">
+                    <h5>FOLLOW ME ON</h5>
+                </b>
+                <a href="http://www.facebook.com/catarina.rocha.104" target="_blank"> <i style="font-size:24px; color:white"
+                        class="fa">&#xf082;</i></a>
+                <a href="http://www.instagram.com/asimpleillusion_/" target="_blank"><i style="font-size:24px; color:white"
+                        class="fa">&#xf16d;</i></a>
+
+
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+                <br>
+                <b class="text-white">
+                    <h5>ADDRESS</h5>
+                </b>
+                <div id="googleMap" style="width:50%;height:200px;"></div>
+            </div>
+            <div class="col-md-12">
+                <b class="text-white">
+                    <h5>GET IN TOUCH</h5>
+                </b></div>
+                <div class="col-md-12">
+                <form class="">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" id="txtName" class="form-control" placeholder="Please Enter Your Name"/>
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input id="txtEmail" type="email" class="form-control" placeholder="Email"/>
+                        <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <input id="txtMessage" type="text" class="form-control" placeholder="Write your message"/>
+                    </div>
+                    <button type="submit" class="btn btn-light" value="submit" onclick="sendEmail()">Message</button>
+                </form>
+            </div>
+        </div>
+    </dialog>
+
+    <script src="CatarinaRocha_Portfolio.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDemxn_jD-UZbSiCUhe4dX7v5jhbnm0cGE&callback=myMap"
+        type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script src="CatarinaRocha_Portfolio.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_BgIBYozEXLINzAzefptTc");
+        })();
+    </script>
+
+</body>
+
+</html>
